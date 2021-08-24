@@ -1,0 +1,24 @@
+{
+  "author": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "description": "JS-ECOMMERCE",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "magazina",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "rm -rf dist && babel backend -d dist && cd frontend && npm install && npm run build",
+    "serve": "node dist/server.js"
+  },
+  "version": "1.0.0"
+}
