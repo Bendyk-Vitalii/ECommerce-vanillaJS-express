@@ -1,1 +1,12 @@
+dist
+/dist
 node_modules
+/node_modules
+
+
+
+npm-debug.log*
+frontend/node_modules/**
+package-lock.json
+frontend/package-lock.json
+frontend/main.js
